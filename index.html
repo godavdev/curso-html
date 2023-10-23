@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etiquetas basicas html</title>
+</head>
+
+<body>
+  <!-- Etiquetas h -->
+  <h1>Titulo 1</h1>
+  <h1>Titulo 2</h1>
+  <h1>Titulo 3</h1>
+  <h6>Titulo 6</h6>
+  <!-- Parrafos -->
+  <p>
+    Parrafo
+  </p>
+
+  <!-- strong y em -->
+  <p>
+    Parrafo con <strong>strong</strong> y <em> enfasis</em>
+  </p>
+
+  <!-- links -->
+  <a href="https://google.com">Ir a google</a>
+
+  <!-- br para salto de linea -->
+  <br>
+  <!-- link con diferente target -->
+  <a target="_blank" href="https://google.com">Ir a google en una pagina nueva</a>
+
+  <!-- link para otra pagina en el mismo folder -->
+  <a href="semantic.html">Ir a la pagina semantica</a>
+
+  <!-- hr para linea horizontal -->
+  <hr>
+  <!-- Imagenes -->
+  <!-- Imagen desde ruta -->
+  <img width="50%" src="assets/imgs/01h00hhdb701z320wa1x.webp" alt="El bicho">
+
+  <!-- Imagen desde link -->
+  <img width="50%"
+    src="https://phantom-marca-mx.unidadeditorial.es/6c3713a75c19a61f263ca12c4cfeff20/resize/1200/f/jpg/mx/assets/multimedia/imagenes/2023/06/05/16859985858899.jpg"
+    alt="El otro bicho">
+
+  <!-- Video -->
+  <video autoplay width="50%" src="assets/videos/videos cortos    10 segundos.mp4" controls></video>
+
+  <!-- Audio -->
+  <audio src="assets/audios/Kanye West - Can u be feat. Travis Scott [V2].mp3" controls></audio>
+  <hr>
+
+  <!-- Listas -->
+  <!-- Lista ordenada -->
+  <ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento3</li>
+  </ol>
+
+  <!-- Lista desordenada -->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento3</li>
+  </ul>
+
+  <!-- Tabla -->
+  <table border="1" style="border-collapse: collapse;">
+    <tr>
+      <th bgcolor="pink" colspan="3">
+        Soy una tabla
+      </th>
+    </tr>
+    <tbody>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td colspan="2">Data</td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Div vs span -->
+  <div style="background-color: aqua;">
+    Hola soy un div
+  </div>
+  <span style="background-color: aqua;">
+    Hola soy un span
+  </span>
+  <hr>
+  <!-- Form -->
+  <form style="border: 2px solid black; padding: 15rem;">
+    <h2>Form</h2>
+    <label for="email">Email: </label>
+    <input type="email" required name="email" id="email" placeholder="Email">
+    <br>
+    <br>
+    <label for="password">Password: </label>
+    <input type="password" required name="password" id="password" placeholder="Password">
+    <br>
+    <br>
+    <label for="edad">Edad:</label>
+    <input type="number" required name="edad" id="edad" placeholder="Edad">
+    <br>
+    <br>
+    <label for="masculino">Masculino </label>
+    <input type="radio" name="genero" value="masculino" id="masculino">
+    <label for="femenino">Femenino </label>
+    <input type="radio" name="genero" value="femenino" id="femenino">
+    <br>
+    <br>
+    <label for="bmw">MBW </label>
+    <input type="checkbox" name="carros" value="bmw" id="bmw">
+    <label for="mercedes">Mercedes </label>
+    <input type="checkbox" name="carros" value="mercedes" id="mercedes">
+    <br>
+    <br>
+    <label for="lugar">Lugar: </label>
+    <select name="lugar" id="lugar">
+      <option value="patzcuaro">Patzcuaro</option>
+      <option value="morelia">Morelia</option>
+      <option value="charo">Charo</option>
+    </select>
+    <br>
+    <br>
+    <label for="mensaje">Mensaje: </label>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10">
+    </textarea>
+    <br>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+
+
+</body>
+
+</html>

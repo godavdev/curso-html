@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina semantica</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            border: 0;
+        }
+
+        nav {
+            height: 5rem;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            font-size: xx-large;
+            color: white;
+        }
+
+        aside {
+            float: left;
+            background-color: greenyellow;
+            height: 100vh;
+        }
+
+        main {
+            background-color: burlywood;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: chocolate;
+            height: 80%;
+            width: 80%;
+        }
+
+        article {
+            width: 50%;
+            background-color: gray;
+            height: 15rem;
+            align-self: center;
+            justify-self: center;
+            display: flex;
+            justify-content: center;
+            color: cornsilk;
+        }
+
+        footer {
+            width: 100%;
+            height: 5rem;
+            color: white;
+            background-color: slategray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        Soy el navBar
+    </nav>
+    <aside>
+        Soy un aside
+    </aside>
+    <main>
+        <section>
+            <article>Soy un article</article>
+            <article>Soy un article</article>
+            <article>Soy un article</article>
+        </section>
+    </main>
+    <footer>
+        Soy un footer
+    </footer>
+</body>
+
+</html>
